@@ -9,6 +9,7 @@ const queryDef = gql`
 			orderBy: String
 			sortOrder: String
 			organizationId: String
+			repositoryId: String
 			types: [String]
 			category: String
 		): Bounties
